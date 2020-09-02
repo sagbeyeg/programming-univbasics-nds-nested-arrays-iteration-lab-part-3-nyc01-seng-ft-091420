@@ -13,7 +13,7 @@ def join_nested_strings(src)
     
     while element_index < src[row_index].count do
       
-      if src[row_index][element_index].class = 
+      if src[row_index][element_index].is_a?(string) 
         
         string_element = src[row_index][element_index]
         
